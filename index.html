@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+    <script defer src="app.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href=”./output.css” rel=”stylesheet”>
+  </head>
+  <body>
+    <nav
+      class="flex flex-wrap shadow-black justify-around bg-[rgba(255,255,255,0.1)] backdrop-blur m-2 p-3 rounded-lg shadow-md font-bold"
+    >
+      <span class="flex justify-between items-center gap-2 uppercase">
+        <img src="/img/logo.png" alt="" height="60px" width="60px" />
+        <h1 class="lg:text-xl font-bold sm:text-md">
+          <b
+            ><i
+              class="bg-gradient-to-r from-white via-blue-700 to-black text-transparent bg-clip-text"
+              >skills phone service</i
+            ></b
+          >
+        </h1>
+      </span>
+      <div class="flex flex-wrap justify-around gap-2 p-2 items-center">
+        <a href="#about" class="hover:text-black uppercase hover:cursor-pointer"
+          >About Us</a
+        >
+        <a
+          href="#process"
+          class="hover:text-black uppercase hover:cursor-pointer"
+          >Repair Process</a
+        >
+
+        <a
+          href="#services"
+          class="hover:text-black uppercase hover:cursor-pointer"
+          >Services</a
+        >
+        <a href="#faq" class="hover:text-black uppercase hover:cursor-pointer"
+          >FAQ</a
+        >
+        <a
+          href="#contact"
+          class="hover:text-black uppercase hover:cursor-pointer"
+          >Contact Us</a
+        >
+      </div>
+    </nav>
+    <section class="hide">
+      <div id="content" class="py-11">
+        <div
+          class="grid place-items-center content-center lg:grid-cols-2 md:grid-cols-2 gap-4 sm:grid-cols-1 sm:gri"
+        >
+          <div class="text-center">
+            <h1 id="h1" class="text-4xl font-extrabold">
+              SKILLS PHONE SERVICE CENTRE
+            </h1>
+            <h2 class="text-xl">
+              <em>"Empowering Your Devices, Connecting Your World."</em>
+            </h2>
+            <p>
+              A busy customer service center with agents on calls,
+              troubleshooting various phone issues. The atmosphere is buzzing
+              with energy.
+            </p>
+            <p>
+              Bring your phone to our service center. Our technicians will
+              diagnose the problem. We will provide you with a quote and
+              estimated repair time. Once approved, we will repair your phone.
+              We will test your phone and ensure it is functioning properly. You
+              can pick up your phone and enjoy it like new!
+            </p>
+          </div>
+          <div class="">
+            <img src="./img/phone.avif" alt="" class="rounded-lg" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="hide py-11" id="about">
+      <div class="container mx-auto">
+        <div
+          class="flex flex-col gap-2 md:flex-row-reverse items-center justify-between"
+        >
+          <div class="md:w-1/2 mb-8">
+            <h2 class="text-4xl font-bold mb-6 text-center">About Us</h2>
+            <p class="text-lg leading-relaxed">
+              At
+              <b class="text-black text-2xl font-extrabold"
+                >SKILLS PHONE SERVICE CENTRE</b
+              >, we are more than just a phone repair service – we are your
+              reliable tech partner committed to delivering top-notch solutions.
+              With a passion for technology and a dedication to customer
+              satisfaction, we take pride in being your go-to destination for
+              all your phone repair needs.
+            </p>
+            <p class="text-lg mt-4">
+              Our journey began with a simple idea: to provide fast, affordable,
+              and high-quality phone repairs while ensuring a seamless
+              experience for our customers. Today, we stand as a trusted name in
+              the industry, known for our expertise, transparency, and
+              customer-centric approach.
+            </p>
+          </div>
+
+          <!-- Right Content - Optional: Image of the Team or Store -->
+          <div class="md:w-1/2">
+            <img
+              class="rounded-full shadow-md"
+              src="/img/skills.png"
+              alt="skills"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="hide py-11">
+      <section id="process">
+        <h2 class="text-4xl text-center uppercase py-4">Repair Process</h2>
+        <div class="flex flex-wrap justify-evenly gap-6 place-content-center">
+          <img
+            src="/img//service1.png"
+            alt=""
+            class="rounded-md shadow-black shadow-md"
+          />
+          <img
+            src="/img//service2.png"
+            alt=""
+            class="rounded-md shadow-black shadow-md"
+          />
+          <img
+            src="/img//service3.png"
+            alt=""
+            class="rounded-md shadow-black shadow-md"
+          />
+        </div>
+      </section>
+    </section>
+    <div class="hide mx-auto" id="services">
+      <h1 class="text-4xl text-center uppercase font-bold py-8">
+        Our Services
+      </h1>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Service 1 -->
+        <div
+          class="rounded-lg shadow-md overflow-hidden bg-[rgba(255,255,255,0.1)] backdrop-blur"
+        >
+          <img
+            src="/img/fix.webp"
+            alt="Service 1"
+            class="w-full h-48 object-cover"
+          />
+          <div class="p-6">
+            <h2 class="text-xl font-semibold mb-2">Screen Replacement</h2>
+            <p class="font-mono">
+              We specialize in high-quality screen replacements for various
+              phone models. Restore your phone's display to its original
+              clarity.
+            </p>
+            <button
+              class="flex justify-center place-content-center m-3 p-3 bg-black text-center rounded-lg"
+            >
+              <a href="#contact">Contact Us</a>
+            </button>
+          </div>
+        </div>
+
+        <!-- Service 2 -->
+        <div
+          class="rounded-lg shadow-md overflow-hidden bg-[rgba(255,255,255,0.1)] backdrop-blur"
+        >
+          <img
+            src="/img/soft.jpg"
+            alt="Service 2"
+            class="w-full h-48 object-cover"
+          />
+          <div class="p-6">
+            <h2 class="text-xl font-semibold mb-2">
+              Software installation and fixes
+            </h2>
+            <p class="font-mono">
+              we understand that software issues can be just as frustrating as
+              hardware problems. Our Software Installation and Fixes service is
+              designed to ensure that your device operates smoothly by
+              addressing a variety of software-related issues.
+            </p>
+            <button
+              class="flex justify-center place-content-center m-3 p-3 bg-black text-center rounded-lg"
+            >
+              <a href="#contact">Contact Us</a>
+            </button>
+          </div>
+        </div>
+
+        <!-- Service 3 -->
+        <div
+          class="rounded-lg shadow-md overflow-hidden bg-[rgba(255,255,255,0.1)] backdrop-blur"
+        >
+          <img
+            src="/img/other.webp"
+            alt="Service 3"
+            class="w-full h-48 object-cover"
+          />
+          <div class="p-6">
+            <h2 class="text-xl font-semibold mb-2">Other Phone Issues</h2>
+            <p class="font-mono">
+              The list list is endless when it comes to phone problems. From
+              faulty hardware to software glitches, we have the expertise and
+              knowledge to fix them all. Contact us today!
+            </p>
+            <button
+              class="flex justify-center place-content-center m-3 p-3 bg-black text-center rounded-lg"
+            >
+              <a href="#contact">Contact Us</a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="hide py-11" id="faq">
+      <div class="max-w-3xl mx-auto">
+        <h1 class="text-3xl font-bold mb-6">Frequently Asked Questions</h1>
+
+        <!-- Question 1 -->
+        <div class="mb-6">
+          <h2 class="text-xl font-semibold mb-2">
+            Q: How long does it take to repair my phone?
+          </h2>
+          <p class="text-teal-200">
+            A: The repair time depends on the type of issue. Simple repairs like
+            screen replacements may take around 1-2 hours, while more complex
+            issues could take longer. Our technicians will provide you with an
+            estimated time when you drop off your phone.
+          </p>
+        </div>
+
+        <!-- Question 2 -->
+        <div class="mb-6">
+          <h2 class="text-xl font-semibold mb-2">
+            Q: What types of phones do you repair?
+          </h2>
+          <p class="text-teal-200">
+            A: We specialize in repairing a wide range of phones, including
+            iPhones, Samsung Galaxy, Google Pixel, and more. Feel free to
+            contact us if you have a specific model or brand-related question.
+          </p>
+        </div>
+
+        <!-- Question 3 -->
+        <div class="mb-6">
+          <h2 class="text-xl font-semibold mb-2">
+            Q: Is it worth repairing an older phone?
+          </h2>
+          <p class="text-teal-200">
+            A: It depends on the extent of the damage and the value of your
+            phone. Our technicians can assess the condition and provide you with
+            an honest recommendation. In some cases, repairing an older phone
+            can be a cost-effective solution compared to buying a new one.
+          </p>
+        </div>
+
+        <!-- Question 4 -->
+        <div class="mb-6">
+          <h2 class="text-xl font-semibold mb-2">
+            Q: Do you provide a warranty for your repairs?
+          </h2>
+          <p class="text-teal-200">
+            A: Yes, we offer a limited warranty on our repairs. The warranty
+            duration may vary depending on the type of repair. Please check with
+            our staff for specific warranty details related to your repair.
+          </p>
+        </div>
+
+        <!-- Question 5 -->
+        <div>
+          <h2 class="text-xl font-semibold mb-2">
+            Q: Can I get a quote before the repair?
+          </h2>
+          <p class="text-teal-200">
+            A: Absolutely! We provide free quotes for all our services. You can
+            visit our store for an in-person assessment, or you can contact us
+            online by providing details about your phone and the issue you're
+            facing. We'll get back to you with a quote promptly.
+          </p>
+        </div>
+      </div>
+    </section>
+    <div class="hide my-6" id="contact">
+      <div
+        class="grid sm:grid-cols-2 items-center gap-16 p-8 mx-auto max-w-4xl bg-[rgba(255,255,255,0.1)] backdrop-blur shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] rounded-md"
+      >
+        <div>
+          <h1 class="text-3xl font-extrabold">Let's Talk</h1>
+          <p class="text-sm mt-3">
+            we'd love to hear any suggestions or feedback you have!
+          </p>
+          <div class="mt-12">
+            <h2 class="text-lg font-extrabold">Email</h2>
+            <ul class="mt-3">
+              <li class="flex items-center">
+                <div
+                  class="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20px"
+                    height="20px"
+                    fill="#007bff"
+                    viewBox="0 0 479.058 479.058"
+                  >
+                    <path
+                      d="M434.146 59.882H44.912C20.146 59.882 0 80.028 0 104.794v269.47c0 24.766 20.146 44.912 44.912 44.912h389.234c24.766 0 44.912-20.146 44.912-44.912v-269.47c0-24.766-20.146-44.912-44.912-44.912zm0 29.941c2.034 0 3.969.422 5.738 1.159L239.529 264.631 39.173 90.982a14.902 14.902 0 0 1 5.738-1.159zm0 299.411H44.912c-8.26 0-14.971-6.71-14.971-14.971V122.615l199.778 173.141c2.822 2.441 6.316 3.655 9.81 3.655s6.988-1.213 9.81-3.655l199.778-173.141v251.649c-.001 8.26-6.711 14.97-14.971 14.97z"
+                      data-original="#000000"
+                    />
+                  </svg>
+                </div>
+                <a
+                  href="mailto:robertssebaale@gmail.com"
+                  class="text-[#007bff] text-sm ml-3"
+                >
+                  <small class="block">Mail</small>
+                  <strong>robertssebaale@gmail.com</strong>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="mt-12">
+            <h2 class="text-lg font-extrabold">Socials</h2>
+            <ul class="flex mt-3 space-x-4">
+              <li
+                class="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0"
+              >
+                <a href="tel:+256700532837">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20px"
+                    height="20px"
+                    fill="#007bff"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"
+                    />
+                  </svg>
+                </a>
+              </li>
+
+              <li
+                class="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0"
+              >
+                <a href="mailto:robertssebaale@gmail.com">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20px"
+                    height="20px"
+                    fill="#007bff"
+                    viewBox="0 0 479.058 479.058"
+                  >
+                    <path
+                      d="M434.146 59.882H44.912C20.146 59.882 0 80.028 0 104.794v269.47c0 24.766 20.146 44.912 44.912 44.912h389.234c24.766 0 44.912-20.146 44.912-44.912v-269.47c0-24.766-20.146-44.912-44.912-44.912zm0 29.941c2.034 0 3.969.422 5.738 1.159L239.529 264.631 39.173 90.982a14.902 14.902 0 0 1 5.738-1.159zm0 299.411H44.912c-8.26 0-14.971-6.71-14.971-14.971V122.615l199.778 173.141c2.822 2.441 6.316 3.655 9.81 3.655s6.988-1.213 9.81-3.655l199.778-173.141v251.649c-.001 8.26-6.711 14.97-14.971 14.97z"
+                      data-original="#000000"
+                    />
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <form
+          action="https://fabform.io/f/xxxxx"
+          method="post"
+          class="ml-auo space-y-4 text-black"
+        >
+          <input
+            type="text"
+            name="name"
+            placeholder="Name"
+            class="w-full rounded-md py-2.5 px-4 border text-sm outline-[#007bff]"
+          />
+          <input
+            type="email"
+            name="email"
+            placeholder="Email"
+            class="w-full rounded-md py-2.5 px-4 border text-sm outline-[#007bff]"
+          />
+          <input
+            type="text"
+            placeholder="Subject"
+            name="subject"
+            class="w-full rounded-md py-2.5 px-4 border text-sm outline-[#007bff]"
+          />
+          <textarea
+            placeholder="Message"
+            rows="6"
+            name="message"
+            class="w-full rounded-md px-4 border text-sm pt-2.5 outline-[#007bff]"
+          ></textarea>
+          <button
+            type="button"
+            type="submit"
+            class="bg-[#007bff] hover:bg-blue-600 font-semibold rounded-md text-sm px-4 py-2.5 w-full"
+          >
+            <a href="#">Send</a>
+          </button>
+        </form>
+      </div>
+    </div>
+    <footer class="bg-gray-800 rounded-t-xl text-white p-4 text-center">
+      <p>&copy; 2024 SKILLS PHONE SERVICE CENTRE. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "name": "skillsphoneservices",
+  "version": "1.0.0",
+  "description": "smooth scroll",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "r4d3v",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/R4D3V/skillphoneservices.git"
+  },
+  "keywords": [
+    "r4d3v"
+  ],
+  "bugs": {
+    "url": "https://github.com/R4D3V/skillphoneservices/issues"
+  },
+  "homepage": "https://github.com/R4D3V/skillphoneservices#readme"
+}

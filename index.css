@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kode+Mono:wght@400..700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  width: 100%;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(/img/bg.svg);
+  font-family: "Kode Mono", monospace;
+  font-style: normal;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  color: white;
+}
+
+#content {
+  display: grid;
+  place-items: center;
+  align-content: center;
+  /* min-height: 100vh; */
+}
+
+.hide {
+  opacity: 0;
+  transform: translateX(-80%);
+  transition: all 2s;
+}
+.show {
+  opacity: 1;
+  transform: translateX(0);
+}
